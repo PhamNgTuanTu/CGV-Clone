@@ -1,0 +1,839 @@
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+@media only screen and (min-width: 1200px) {
+    .header__navbar,
+    .header__menu-primary,
+    .main-container,
+    .footer-cgv-policy,
+    .footer-cgv-address,
+    .footer__items,
+    .breadcrumb_link,
+    .main-col,
+    .main-movie-seat {
+        max-width: 1000px;
+    }
+    .poup__movie {
+        max-width: 800px;
+    }
+}
+
+/* Medium Device = 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .address {
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    }
+}
+
+/* Tablet Device = 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {		
+    .hide-in-tablet,
+    .hide-in-mobile {
+        display: none !important;
+    }
+    .main {
+        background: none;
+    }
+    .navbar {
+        padding-top: 50px;
+        position: relative;
+        top:15px;
+    }
+    .header {
+        background-image: none;
+        background: none;
+        height: 100%;
+    }
+    .header__logo {
+        float: none;
+        position: absolute;
+        top: -80px;
+        margin: 0;
+        left: 40%;
+    }
+    .header__logo a img {
+        width: 100px;
+    }
+    .header__logo {
+        left: 50%;
+        top: -90px;
+        transform: translateX(-50%);
+    }
+    .header__menu-booking {
+        margin: 0;
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+    .header__menu-listmenu {
+        display: block;
+        width: 100%;
+        background: #EDEDED;
+    }
+    .header__menu-submenu {
+        opacity: 1;
+        visibility: visible;
+        position: static;
+        background-image: none;
+        display: none;
+    }
+    .header_menu-item {
+        margin: 0;
+        cursor: none;
+    }
+    .header_menu-item:hover .header__menu-submenu {
+        position: static;
+        display: none;
+        cursor: none;
+    }
+    .header__menu-submenu-item:hover,
+    .header__menu-submenu-item a:hover {
+        background-image: none;
+        color: #000;
+    }
+    .header__menu-submenu-item a {
+        color: black;
+    }
+    .header__menu-submenu-item {
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-bottom: 1px solid #cccccc !important;
+        margin-left: 20px;
+    }
+    .show {
+        display: block;
+        cursor: pointer;
+        border-bottom: 1px solid #cccccc;
+        padding-left: 20px;
+        color: #666;
+    }
+    .icon {
+        display: block;
+        position: absolute;
+        line-height: 20px;
+        cursor: pointer;
+        left: 40%;
+        line-height: 45px;
+    }
+    .header__navbar-myticket a span,
+    .header__navbar-account a span {
+        clip-path: polygon(0px 0px,0px 0px,0px 0px,0px 0px);
+    }
+    .header__navbar-news {
+        position: absolute;
+        line-height: 29px;
+        left: 0;
+        top: -555%;
+    }
+    .menu-in-mobile,
+    .header__navbar-myticket,
+    .header__navbar-account {
+        flex: 1;
+        margin: 0;
+        line-height: inherit;
+        border: 1px solid #cccccc;
+        height: 45px;
+        background: var(--navbar-background-color);
+    }
+    .menu-in-mobile {
+        position: relative;
+        cursor: pointer;
+        display: block;
+        background: #EDEDED;
+    }
+    .header__navbar-news a::before, .header__navbar-myticket a::before, .header__navbar-account a::before {
+        left: 40%;
+        top: 5px;
+    }
+    .header__menu-listmenu {
+        display: none;
+        margin-top: 10px;
+    }
+    [id^=btn]:checked {
+        color: red;
+    }
+    [id^=btn]:checked + .header__menu-submenu {
+        display: block;
+        
+    }
+    .menu-in-mobile:hover .header__menu-listmenu {
+        display: block;
+    }
+    .header_menu-item a {
+        color: #666;
+    }
+    .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+        display: none;
+    }
+    .footer-cgv-policy {
+        height: 260px;
+    }
+    .content-cgv-policy {
+        position: relative;
+    }
+    .customer-cgv {
+        top: 140px;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background: #ececf1;
+    }
+    .page-tilte {
+        background: black;
+        margin: 10px;
+        position: relative;
+    }
+    .page-tilte h1 {
+        padding: 5px 0;
+        margin-left: 20px;
+        color: white;
+        font-size: 20px;
+    }
+    .add::after {
+        content: '+';
+        border: 1px solid white;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        color: white;
+        right: 0;
+        line-height: 20px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 5px;
+        top: 0;
+    }
+    .page-tilte .upcoming-movie {
+        color: white;
+        font-size: 15px;
+    }
+    .upcoming-movie {
+        display: none;
+        padding-left: 20px;
+        position: absolute;
+        top: 0px;
+        background: black;
+        width: 100%;
+        border-top: 1px solid white;
+        height: 30px;
+        line-height: 30px;
+    }
+    .container {
+        margin-top: 30px;
+    }
+    .main-movie-seat {
+        overflow: hidden;
+    }
+    .movie-seat__container {
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .btn-previous {
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+    }
+    .btn-next {
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+    }
+    .minicart-wrapper {
+        margin-bottom: 120px;
+    }
+    .address {
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    }
+    .main-col-r {
+        display: block !important;
+    }
+    .main-col {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .main-col-l {
+        padding: 0 20px;
+        width: 100%;
+    }
+    .main-col-r {
+        width: 100%;
+        height: auto;
+    }
+    .main-login-primary {
+        margin: 0;
+    }
+
+
+}
+
+/* Wide Mobile = 480px */
+
+@media only screen and (max-width: 767px) {
+	.hide-in-mobile {
+        display: none !important;
+    }
+    .hide-in-pc {
+        display: block;
+    }
+    .navbar {
+        padding:50px 0 0 0;
+        position: relative;
+        top:25px;
+        z-index: 1;
+    }
+    .header {
+        background-image: none;
+        background: none;
+        height: 100%;
+    }
+    .header__logo {
+        float: none;
+        position: absolute;
+        top: -80px;
+        margin: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    .header__logo a img {
+        width: 68px;
+    }
+    .header__menu-booking {
+        margin: 0;
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+    .header__menu-listmenu {
+        display: block;
+        width: 100%;
+        background: #EDEDED;
+    }
+    .header__menu-submenu {
+        opacity: 1;
+        visibility: visible;
+        position: static;
+        background-image: none;
+        display: none;
+    }
+    .header_menu-item {
+        margin: 0;
+        cursor: none;
+    }
+    .header_menu-item:hover .header__menu-submenu {
+        position: static;
+        display: none;
+        cursor: none;
+    }
+    .header__menu-submenu-item:hover,
+    .header__menu-submenu-item a:hover {
+        background-image: none;
+        color: #000;
+    }
+    .header__menu-submenu-item a {
+        color: black;
+    }
+    .header__menu-submenu-item {
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-bottom: 1px solid #cccccc !important;
+        margin-left: 20px;
+    }
+    .show {
+        display: block;
+        cursor: pointer;
+        border-bottom: 1px solid #cccccc;
+        padding-left: 20px;
+        color: #666;
+    }
+    .icon {
+        display: block;
+        position: absolute;
+        line-height: 20px;
+        cursor: pointer;
+        left: 40%;
+        line-height: 45px;
+    }
+    .header__navbar-myticket a span,
+    .header__navbar-account a span {
+        clip-path: polygon(0px 0px,0px 0px,0px 0px,0px 0px);
+    }
+    .header__navbar-news {
+        position: absolute;
+        /* margin-right: 45px; */
+        line-height: 29px;
+        left: 0;
+        top: -555%;
+    }
+    .menu-in-mobile,
+    .header__navbar-myticket,
+    .header__navbar-account {
+        flex: 1;
+        margin: 0;
+        line-height: inherit;
+        border: 1px solid #cccccc;
+        height: 45px;
+        background: var(--navbar-background-color);
+    }
+    .menu-in-mobile {
+        position: relative;
+        cursor: pointer;
+        display: block;
+    }
+    .header__navbar-news a::before, .header__navbar-myticket a::before, .header__navbar-account a::before {
+        left: 40%;
+        top: 5px;
+    }
+    .header__menu-listmenu {
+        display: none;
+        margin-top: 10px;
+    }
+    [id^=btn]:checked {
+        color: red;
+    }
+    [id^=btn]:checked + .header__menu-submenu {
+        display: block;
+        
+    }
+    .menu-in-mobile:hover .header__menu-listmenu {
+        display: block;
+    }
+    .header_menu-item a {
+        color: #666;
+    }
+    .main {
+        background: none;
+    }
+    .galleryContainer {
+        width: 100%;
+        height: 270px;
+    }
+    .main-title {
+        background-size: 240px 30px ;
+    }
+    .main-title h2 {
+        width: 56% !important;
+        background-size: 240px 30px;
+    }
+    .main-movie__list {
+        width: 100%;
+    }
+    .box-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .main-movie__event .main-title {
+        background-size: 240px 30px ;
+    }
+    .main-movie__event .main-title h2 {
+        width: 34% !important;
+        background-size: 120px 30px;
+    }
+    .main-member__box {
+        width: 292px;
+        height: 150px;
+        margin-left: 10px;
+    }
+    .main-member__box a img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .box-detail {
+        width: 50%;
+        font-size: 13px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .btn-pay-ticket {
+        text-align: right;
+        font-size: 15px;
+        width: 40%;
+        height: 30px;
+        background-position: 0 4px;
+    }
+    .box-title span {
+        font-size: 12px;
+    }
+    .content-cgv-policy {
+        width: 100% !important;
+        display: block;
+    }
+    .cgv-vietnam h3,
+    .cgv-policy h3,
+    .cgv-follow-us h3 {
+        display: none;
+    }
+    .footer-cgv-policy {
+        padding: 0;
+        margin: 15px 0 0 0;
+        border-bottom: none;
+    }
+    .cgv-vietnam,
+    .cgv-policy {
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .cgv-vietnam ul,
+     .cgv-policy ul {
+        margin-top: 0px;
+    }
+    .cgv-vietnam, .cgv-policy, .cgv-follow-us {
+        margin-right: 0px;
+    }
+    .cgv-follow-us {
+        margin-top: 10px;
+    }
+    .cgv-follow-us ul {
+        display: flex;
+        justify-content: center;
+    }
+    .cgv-follow-us ul li {
+        margin: 3px;
+    }
+    .cgv-vietnam ul li,
+    .cgv-policy ul li {
+        border-bottom: 1px solid #e1e1e1;
+        height: 40px;
+    }
+    .cgv-vietnam ul li a,
+    .cgv-policy ul li a {
+        padding-left: 5px;
+    }
+    .cgv-permision h2 a {
+        background-position: center;
+    }
+    .customer-cgv {
+        margin-top: 10px;
+        background: #e7e2e2;
+    }
+    .customer-cgv h3,
+    .text-cgv-address h3 {
+        color: #636363;
+        font-size: 16px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    .customer-cgv h3,
+    .customer-cgv p,
+    .text-cgv-address h3,
+    .text-cgv-address p {
+        text-align: center;
+    }
+    .text-cgv-address {
+        margin-bottom: 10px;
+    }
+    .text-cgv-address p {
+        color: #636363;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .logo-footer-cgv {
+        margin: 0 auto;
+        float: none;
+        background-position: -130px -318px;
+        height: 50px;
+    }
+    .page-tilte-mobile {
+        background: black;
+        margin: 10px;
+        position: relative;
+    }
+    .page-tilte-mobile h1 {
+        padding: 5px 0;
+        margin-left: 20px;
+        color: white;
+        font-size: 20px;
+    }
+    .add::after {
+        content: '+';
+        border: 1px solid white;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        color: white;
+        right: 0;
+        line-height: 20px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 5px;
+        top: 0;
+    }
+    .page-tilte .upcoming-movie {
+        color: white;
+        font-size: 15px;
+    }
+    .upcoming-movie {
+        display: none;
+        padding-left: 20px;
+        position: absolute;
+        top: 0px;
+        background: black;
+        width: 100%;
+        border-top: 1px solid white;
+        height: 30px;
+        line-height: 30px;
+    }
+    .container {
+        margin-top: 30px;
+    }
+
+    .address,
+    .address-theater {
+        margin: 0;
+    }
+    .category-movie-detai span,
+    .address-theater span {
+        font-size: 12px;
+    }
+    .theater-detail h2,
+    .theater-detail span {
+        margin: 10px 0;
+    }
+    .calendar-part {
+        width: auto;
+        font-size: 12px;
+    }
+    #date {
+        margin: 10px 0;
+    }
+    .theater-detail_time-watch,
+    .category-movie-detai {
+        width: auto;
+        margin: 5px;
+    }
+    .theater-detail_time {
+        margin: 10px 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    }
+    .btn-previous {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .btn-next {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .movie-seat__bottom-item,
+    .movie-seat__bottom-list {
+        display: block;
+    }
+    .movie-seat__bottom-item {
+        width: 100%;
+    }
+    .info-detail {
+        display: none;
+    }
+    .img-ticket img {
+        width: 100%;
+        height: auto;
+    }
+    .minicart-wrapper {
+        margin-bottom: 120px;
+    }
+    .total-seat {
+        display: grid;
+    }
+    .btn-previous {
+        left: 5px;
+        bottom: 5px;
+     }
+     .btn-next {
+        right: 5px;
+        bottom: 5px;
+     }
+     .main-movie-seat {
+         overflow: hidden;
+     }
+     .movie-seat__container {
+         width: 100%;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .detail-inmobile {
+         display: none;
+     }
+     .detail-body {
+         display: block;
+     }
+     .detail__img {
+         text-align: center;
+         margin-bottom: 20px;
+     }
+     .detail__name {
+         font-size: 20px;
+         margin:5px 0;
+     }
+     .product-name {
+         border: none;
+         font-size: 20px;
+         width: 100%;
+        position: absolute;
+        top: -50px;
+     }
+     .detail__content {
+         margin: 0;
+         position: unset;
+     }
+     .detail-body {
+         position: relative;
+     }
+    .main-col-detail {
+         margin: 0 10px;
+     }
+     .detail__name {
+         display: block;
+     }
+     .product-name {
+         display: none;
+     }
+     .detail-action {
+        bottom: -90px;
+        left: 50%;
+        transform: translateX(-50%);
+     }
+     .pay-ticket-indetail {
+         width: max-content;
+     }
+     .detai-movie-bre {
+         display: none;
+     }
+     .detai-movie-bre:nth-last-child(1) {
+         display: block;
+        font-size: 14px;
+        padding-top: 5px;
+        text-decoration: underline;
+     }
+     .main-col-l {
+         width: 100%;
+         padding: 0 10px;
+     }
+     .main-login__tiltle h2 {
+         font-size: 15px;
+     }
+     .main-login-primary {
+         margin-top: 5px;
+     }
+     .login-form label {
+         font-size: 12px;
+     }
+     .capcha {
+         margin: 0 0 10px 0;
+     }
+     .control-group {
+         display: block;
+     }
+     #dob-day {
+         float: left;
+     }
+     #dob-month {
+         float: left;
+     }
+     #dob-day, #dob-month, #dob-year {
+         width: 30%;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+     .select-time {
+        display: flex;
+        justify-content: space-between;
+     }
+     #sex {
+         display: block;
+     }
+     .checkbox {
+        display: flex;
+        align-items: baseline;
+        margin: 10px 0 !important;
+     }
+     .capcha-container {
+         display: flex;
+         align-items: center;
+     }
+     #access-policy_im {
+        display: unset;
+     }
+     input[type=checkbox] {
+        float: left;
+     }
+
+}
+
+/* Small Device = 320px */
+
+@media only screen and (max-width: 479px) {
+    .container {
+        margin-top: 0px;
+    }
+	.galleryContainer {
+        width: 100%;
+        height: 165px;
+    }
+    .main-title h2 {
+        width: 75% !important;
+        background-size: 230px 30px;
+    }
+    #popup {
+        width: 100%;
+    }
+    .video-container {
+        width: auto;
+    }
+    .main-movie__event .main-title h2 {
+        width: 45% !important;
+        background-size: 120px 30px;
+    }
+    .box-detail {
+        font-size: 10px;
+    }
+    .btn-pay-ticket {
+        font-size: 10px;
+    }
+    .box-play-triler {
+        left: 35%;
+    }
+    .owl-nav .owl-prev,
+    .owl-nav .owl-next {
+        display: none;
+    }
+    .main_toggle-wrap {
+        width: 100%;
+    }
+    .main-member__box {
+        margin-left: 0px;
+        width: 60%;
+        height: auto;
+    }
+    .toggle-tabs li {
+        width: 50%;
+        font-size: 10px;
+    }
+    .box-movie {
+        width: 149px;
+    }
+    .ribon {
+        top: 9px;
+        right: 0px;
+    }
+    .pay-ticket {
+        font-size: 10px;
+        height: 30px;
+    }
+    .box-raiting {
+        left: 10px;
+    }
+    .main-login__tiltle h2 {
+        font-size: 11px;
+    }
+}

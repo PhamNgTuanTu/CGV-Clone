@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phim Sắp Chiếu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <div class="web" id="blur">
+            <!-- NavBar HeaDer -->
+            <!-- ------------- -->
+            <div class="navbar">
+                <div class="header__navbar">
+                    <div class="menu-in-mobile">
+                        <span class="fa fa-bars"></span>
+                    </div>
+                    <div class="header__navbar-news">
+                        <a href="#"><span>TIN MỚI & ƯU Đãi</span></a>
+                    </div>
+                    
+                    <div class="header__navbar-myticket">
+                        <a href="#"><span>VÉ CỦA TÔI</span></a>
+                    </div>
+                    <div class="header__navbar-account">
+                        <a href="login.html"><span>ĐĂNG NHẬP / ĐĂNG KÝ</span></a>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------------- -->
+            <!-- End NavBar HeaDer -->
+            <!--  HeaDer -->
+            <!-- ------- -->
+            <header class="header">
+
+            <!-- Header Menu -->
+            <!-- ------------- -->
+            <div class="header__menu-primary">
+            <div class="header__menu">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="./images/cgvlogo.png" alt="logo.png">
+                    </a>
+                </div>
+                <div class="header__menu-booking">
+                    <ul class="header__menu-listmenu">
+                        <li class="header_menu-item">
+                            <a class="hide-in-mobile"> Phim</a>
+                            <label for="btn-1"class="show"><i class="fa fa-caret-right"></i> Phim</label>
+                            <input type="checkbox" id="btn-1">
+                            <ul class="header__menu-submenu">
+                                <li class="header__menu-submenu-item"><a href="movie-now-playing.html">Phim Đang Chiếu</a></li>
+                                <li class="header__menu-submenu-item"><a href="upcoming-movie.html">Phim Sắp Chiếu</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_menu-item">
+                            <a class="hide-in-mobile">Rạp CGV</a> 
+                            <label for="btn-2"class="show"><i class="fa fa-caret-right"></i> Rạp CGV</label>
+                            <input type="checkbox" id="btn-2">
+                            <ul class="header__menu-submenu">
+                                <li class="header__menu-submenu-item"><a href="#">Tất Cả Các Rạp</a></li>
+                                <li class="header__menu-submenu-item"><a href="#">Rạp Đặt Biệt</a></li>
+                                <li class="header__menu-submenu-item"><a href="#">Rạp Sắp Mở</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_menu-item">
+                            <a class="hide-in-mobile">Thành Viên</a> 
+                            <label for="btn-3"class="show"><i class="fa fa-caret-right"></i> Thành Viên</label>
+                            <input type="checkbox" id="btn-3">
+                            <ul class="header__menu-submenu">
+                                <li class="header__menu-submenu-item"><a href="#">Tài Khoản CGV</a></li>
+                                <li class="header__menu-submenu-item"><a href="#">Quyền Lợi</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_menu-item">
+                            <a class="hide-in-mobile">Cultureplex</a> 
+                            <label for="btn-4"class="show"><i class="fa fa-caret-right"></i> Cultureplex</label>
+                            <input type="checkbox" id="btn-4">
+                            <ul class="header__menu-submenu">
+                                <li class="header__menu-submenu-item"><a href="#">Quầy Online</a></li>
+                                <li class="header__menu-submenu-item"><a href="#">Sự Kiện & Vé Nhóm</a></li>
+                                <li class="header__menu-submenu-item"><a href="#">Thẻ Quà Tặng</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_menu-item hide-in-pc">
+                            <a class="hide-in-mobile">Tin Mới & Ưu Đãi</a>
+                            <a href="#" class="show">Tin Mới & Ưu Đãi</a>       
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__info hide-in-mobile hide-in-tablet">
+                    <div class="header__info-left">
+                        <a href="#" class="header__info-chanel"><img src="./images/kenhcine.gif" alt=""></a>
+                    </div>
+                    <div class="header__info-right">
+                        <a href="#" class="header__info-buy-ticket-now"><img src="./images/other/mua-ve_ngay.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- --------------- -->
+            <!-- End Header Menu -->
+            </header>
+            <!-- End HeaDer -->
+            <!-- ---------- -->
+            <!-- location  -->
+            <!-- -------- -->
+            <div class="location">
+                <div class="breadcrumb_link">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
+                          <li class="breadcrumb-item"><a href="#">Phim</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Phim Sắp Chiếu</li>
+                        </ol>
+                      </nav>
+                </div>
+            </div>
+            <!-- ------------- -->
+            <!-- End location  -->
+
+            <!-- body upcoming movie -->
+            <!-- ------------------- -->
+            <div class="main-primary">
+                <div class="main-col border-solid">
+                    <div class="page-tilte page-tilte-mobile">
+                        <h1 class="now-watching">Phim Sắp Chiếu</h1>
+                        <span class="add"></span>
+                        <a href="movie-now-playing.html" class="upcoming-movie">Phim Đang Chiếu</a>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+
+                            <!-- ---1----------- -->
+                            <div class="col">
+                                    <div class="box-movie">
+                                        <div class="box-movie_img">
+                                            <a href="#" title="WONDER WOMAN 1984">
+                                                <img src="./images/detail_movie/wonder_woman_1984-_vietnamese_poster_1__1.jpg" alt="Error">
+                                                <div class="gradient-img"></div>
+                                            </a>
+                                        </div>
+                                        <div class="box-movie_tilte">
+                                            <div class="box-movie__info">
+                                                <a href="#" title="WONDER WOMAN 1984">
+                                                    WONDER WOMAN 1984
+                                                </a>
+                                            </div>
+                                            <div class="box-movie__info">
+                                                <span>Thể Loại :</span>
+                                                <span>Hành Động, Thần thoại</span>
+                                            </div>
+                                            <div class="box-movie__info">
+                                                <span>Thời Lượng :</span>
+                                                <span></span>
+                                            </div>
+                                            <div class="box-movie__info">
+                                                <span>Khởi Chiếu :</span>
+                                                <span>18-12-2020</span>
+                                            </div>
+                                        </div>
+                                        <div class="box-movie__action-coming">
+                                            <div class="like-coming">
+                                                <i class="far fa-thumbs-up"></i>
+                                                <span>like</span>
+                                                <span>444</span>
+                                            </div>
+                                        </div>
+                                        </div>
+                            
+
+                            </div>
+                            <!-- ---1----------- -->
+
+                            <!-- ---2----------- -->
+                            <div class="col">
+                                <div class="box-movie">
+                                    <div class="box-movie_img">
+                                        <a href="#" title="WONDER WOMAN 1984">
+                                            <img src="./images/detail_movie/wonder_woman_1984-_vietnamese_poster_1__1.jpg" alt="Error">
+                                            <div class="gradient-img"></div>
+                                        </a>
+                                    </div>
+                                    <div class="box-movie_tilte">
+                                        <div class="box-movie__info">
+                                            <a href="#" title="WONDER WOMAN 1984">
+                                                WONDER WOMAN 1984
+                                            </a>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thể Loại :</span>
+                                            <span>Hành Động, Thần thoại</span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thời Lượng :</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Khởi Chiếu :</span>
+                                            <span>18-12-2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="box-movie__action-coming">
+                                        <div class="like-coming">
+                                            <i class="far fa-thumbs-up"></i>
+                                            <span>like</span>
+                                            <span>444</span>
+                                        </div>
+                                    </div>
+                                    </div>
+                        
+
+                            </div>
+                            <!-- ---2----------- -->
+
+                            <!-- ---3----------- -->
+                            <div class="col">
+                                <div class="box-movie">
+                                    <div class="box-movie_img">
+                                        <a href="#" title="WONDER WOMAN 1984">
+                                            <img src="./images/detail_movie/wonder_woman_1984-_vietnamese_poster_1__1.jpg" alt="Error">
+                                            <div class="gradient-img"></div>
+                                        </a>
+                                    </div>
+                                    <div class="box-movie_tilte">
+                                        <div class="box-movie__info">
+                                            <a href="#" title="WONDER WOMAN 1984">
+                                                WONDER WOMAN 1984
+                                            </a>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thể Loại :</span>
+                                            <span>Hành Động, Thần thoại</span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thời Lượng :</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Khởi Chiếu :</span>
+                                            <span>18-12-2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="box-movie__action-coming">
+                                        <div class="like-coming">
+                                            <i class="far fa-thumbs-up"></i>
+                                            <span>like</span>
+                                            <span>444</span>
+                                        </div>
+                                    </div>
+                                    </div>
+                        
+
+                            </div>
+                            <!-- ---3----------- -->
+
+                            <!-- ---4----------- -->
+                            <div class="col">
+                                <div class="box-movie">
+                                    <div class="box-movie_img">
+                                        <a href="#" title="WONDER WOMAN 1984">
+                                            <img src="./images/detail_movie/wonder_woman_1984-_vietnamese_poster_1__1.jpg" alt="Error">
+                                            <div class="gradient-img"></div>
+                                        </a>
+                                    </div>
+                                    <div class="box-movie_tilte">
+                                        <div class="box-movie__info">
+                                            <a href="#" title="WONDER WOMAN 1984">
+                                                WONDER WOMAN 1984
+                                            </a>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thể Loại :</span>
+                                            <span>Hành Động, Thần thoại</span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thời Lượng :</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Khởi Chiếu :</span>
+                                            <span>18-12-2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="box-movie__action-coming">
+                                        <div class="like-coming">
+                                            <i class="far fa-thumbs-up"></i>
+                                            <span>like</span>
+                                            <span>444</span>
+                                        </div>
+                                    </div>
+                                    </div>
+                        
+
+                            </div>
+                            <!-- ---4----------- -->
+
+                            <!-- ---5----------- -->
+                            <div class="col">
+                                <div class="box-movie">
+                                    <div class="box-movie_img">
+                                        <a href="#" title="WONDER WOMAN 1984">
+                                            <img src="./images/detail_movie/wonder_woman_1984-_vietnamese_poster_1__1.jpg" alt="Error">
+                                            <div class="gradient-img"></div>
+                                        </a>
+                                    </div>
+                                    <div class="box-movie_tilte">
+                                        <div class="box-movie__info">
+                                            <a href="#" title="WONDER WOMAN 1984">
+                                                WONDER WOMAN 1984
+                                            </a>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thể Loại :</span>
+                                            <span>Hành Động, Thần thoại</span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thời Lượng :</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Khởi Chiếu :</span>
+                                            <span>18-12-2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="box-movie__action-coming">
+                                        <div class="like-coming">
+                                            <i class="far fa-thumbs-up"></i>
+                                            <span>like</span>
+                                            <span>444</span>
+                                        </div>
+                                    </div>
+                                    </div>
+                        
+
+                            </div>
+                            <!-- ---5----------- -->
+
+                            <!-- ---6----------- -->
+                            <div class="col">
+                                <div class="box-movie">
+                                    <div class="box-movie_img">
+                                        <a href="#" title="WONDER WOMAN 1984">
+                                            <img src="./images/detail_movie/wonder_woman_1984-_vietnamese_poster_1__1.jpg" alt="Error">
+                                            <div class="gradient-img"></div>
+                                        </a>
+                                    </div>
+                                    <div class="box-movie_tilte">
+                                        <div class="box-movie__info">
+                                            <a href="#" title="WONDER WOMAN 1984">
+                                                WONDER WOMAN 1984
+                                            </a>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thể Loại :</span>
+                                            <span>Hành Động, Thần thoại</span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thời Lượng :</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Khởi Chiếu :</span>
+                                            <span>18-12-2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="box-movie__action-coming">
+                                        <div class="like-coming">
+                                            <i class="far fa-thumbs-up"></i>
+                                            <span>like</span>
+                                            <span>444</span>
+                                        </div>
+                                    </div>
+                                    </div>
+                        
+
+                            </div>
+                            <!-- ---6----------- -->
+
+                            <!-- ---7----------- -->
+                            <div class="col">
+                    <div class="box-movie">
+                        <div class="box-movie_img">
+                            <a href="#" title="WONDER WOMAN 1984">
+                                <img src="./images/detail_movie/wonder_woman_1984-_vietnamese_poster_1__1.jpg" alt="Error">
+                                <div class="gradient-img"></div>
+                            </a>
+                        </div>
+                        <div class="box-movie_tilte">
+                            <div class="box-movie__info">
+                                <a href="#" title="WONDER WOMAN 1984">
+                                    WONDER WOMAN 1984
+                                </a>
+                            </div>
+                            <div class="box-movie__info">
+                                <span>Thể Loại :</span>
+                                <span>Hành Động, Thần thoại</span>
+                            </div>
+                            <div class="box-movie__info">
+                                <span>Thời Lượng :</span>
+                                <span></span>
+                            </div>
+                            <div class="box-movie__info">
+                                <span>Khởi Chiếu :</span>
+                                <span>18-12-2020</span>
+                            </div>
+                        </div>
+                        <div class="box-movie__action-coming">
+                            <div class="like-coming">
+                                <i class="far fa-thumbs-up"></i>
+                                <span>like</span>
+                                <span>444</span>
+                            </div>
+                        </div>
+                        </div>
+            
+
+                            </div>
+                            <!-- ---7----------- -->
+
+                            <!-- ---8----------- -->
+                            <div class="col">
+                                <div class="box-movie">
+                                    <div class="box-movie_img">
+                                        <a href="#" title="WONDER WOMAN 1984">
+                                            <img src="./images/detail_movie/wonder_woman_1984-_vietnamese_poster_1__1.jpg" alt="Error">
+                                            <div class="gradient-img"></div>
+                                        </a>
+                                    </div>
+                                    <div class="box-movie_tilte">
+                                        <div class="box-movie__info">
+                                            <a href="#" title="WONDER WOMAN 1984">
+                                                WONDER WOMAN 1984
+                                            </a>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thể Loại :</span>
+                                            <span>Hành Động, Thần thoại</span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Thời Lượng :</span>
+                                            <span></span>
+                                        </div>
+                                        <div class="box-movie__info">
+                                            <span>Khởi Chiếu :</span>
+                                            <span>18-12-2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="box-movie__action-coming">
+                                        <div class="like-coming">
+                                            <i class="far fa-thumbs-up"></i>
+                                            <span>like</span>
+                                            <span>444</span>
+                                        </div>
+                                    </div>
+                                    </div>
+                        
+
+                            </div>
+                            <!-- ---8----------- -->
+                        </div>
+                    </div>
+                    
+            </div>
+            <div class="footer">
+                <div class="footer-brand-slide hide-in-mobile">
+                    <div class="footer__items">
+                        <ul class="footer__items-list">
+                            <li ><a class="dx" href="https://www.cgv.vn/default/theaters/special/4dx">4DX</a></li>
+                            <li ><a class="IMAX" href="https://www.cgv.vn/default/theaters/special/imax">IMAX</a></li>
+                            <li ><a class="STARIUM" href="https://www.cgv.vn/default/theaters/special/starium">STARIUM</a></li>
+                            <li ><a class="GOLD" href="https://www.cgv.vn/default/theaters/special/gold-class">GOLD Class</a></li>
+                            <li ><a class="LAMOUR" href="https://www.cgv.vn/default/theaters/special/lamour">LAMOUR</a></li>
+                            <li ><a class="SWEETBOX" href="https://www.cgv.vn/default/theaters/special/sweetbox">SWEETBOX</a></li>
+                            <li ><a class="Dolby" href="https://www.cgv.vn/default/theaters/special/dolby-atmos">Dolby Atmos</a></li>
+                            <li ><a class="Premium" href="https://www.cgv.vn/default/theaters/special/premium">Premium Cinema</a></li>
+                            <li ><a class="Screenx" href="https://www.cgv.vn/default/theaters/special/screenx">Screenx</a></li>
+                            <li ><a class="Cine-Foret" href="https://www.cgv.vn/default/theaters/special/cine-foret">Cine & Foret</a></li>
+                            <li ><a class="Cine-Living" href="https://www.cgv.vn/default/theaters/special/cine-living">Cine & Living Room</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-cgv-policy">
+                    <div class="content-cgv-policy">
+                    <div class="cgv-vietnam">
+                    <h3>CGV Việt Nam</h3>
+                    <ul>
+                    <li><a href="https://www.cgv.vn/default/about-cgv/">Giới Thiệu</a></li>
+                    <li><a href="https://www.cgv.vn/default/cgv-online/">Tiện Ích Online</a></li>
+                    <li><a href="https://www.cgv.vn/default/gift-card/">Thẻ Quà Tặng</a></li>
+                    <li><a href="https://www.cgv.vn/default/careers/">Tuyển Dụng</a></li>
+                    <li><a href="https://www.cgv.vn/default/contacts/">Liên Hệ Quảng Cáo CGV</a></li>
+                    </ul>
+                    </div>
+                    <div class="cgv-policy">
+                    <h3>Điều khoản sử dụng</h3>
+                    <ul>
+                    <li><a href="https://www.cgv.vn/default/terms-conditions/">Điều Khoản Chung</a></li>
+                    <li><a href="https://www.cgv.vn/default/terms-use/">Điều Khoản Giao Dịch</a></li>
+                    <li><a href="https://www.cgv.vn/default/payment-policy/">Chính Sách Thanh Toán</a></li>
+                    <li><a href="https://www.cgv.vn/default/privacy-policy/">Chính Sách Bảo Mật</a></li>
+                    <li><a href="https://www.cgv.vn/default/faq/">Câu Hỏi Thường Gặp</a></li>
+                    </ul>
+                    </div>
+                    <div class="cgv-follow-us">
+                    <h3>Kết nối với chúng tôi</h3>
+                    <ul>
+                    <li><a class="follow-fb" href="#">fb</a></li>
+                    <li><a class="follow-yt" href="#">yt</a></li>
+                    <li><a class="follow-line" href="#">line</a></li>
+                    <li><a class="follow-instagram" href="#">insta</a></li>
+                    <li><a class="follow-zalo" href="#">zalo</a></li>
+                    </ul>
+                    <div class="cgv-permision">
+                    <h2><a href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=30278" target="_blank">cgv</a></h2>
+                    </div>
+                    </div>
+                    <div class="customer-cgv">
+                    <h3>Chăm Sóc Khách Hàng</h3>
+                    <p style="line-height: 22px;">Hotline: 1900 6017<br>Giờ làm việc: 8:00 - 22:00 (Tất cả các ngày bao gồm cả Lễ Tết)<br>Email hỗ trợ: <a href="mailto:hoidap@cgv.vn">hoidap@cgv.vn</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div class="footer-cgv-address">
+                    <div class="cgv-address-content">
+                        <div class="logo-footer-cgv">&nbsp;</div>
+                        <div class="text-cgv-address">
+                        <h3>CÔNG TY TNHH CJ CGV VIETNAM</h3>
+                        <p>Giấy CNĐKDN: 0303675393, đăng ký lần đầu ngày 31/7/2008, đăng ký thay đổi lần thứ 5 ngày 14/10/2015, cấp bởi Sở KHĐT thành phố Hồ Chí Minh.</p>
+                        <p>Địa Chỉ:&nbsp;Tầng 2, Rivera Park Saigon - Số 7/28 Thành Thái, P.14, Q.10, TPHCM.</p>
+                        <p>Hotline: 1900 6017</p>
+                        <p>COPYRIGHT 2017 CJ CGV. All RIGHTS RESERVED .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-banner hide-in-mobile">
+
+                </div>
+            </div>
+            </div>
+            <!-- ----------------------- -->
+            <!-- End body upcoming movie -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $('.fa-bars').click(function(){
+        $('.header__menu-listmenu').toggle();
+        })
+
+        $('.add').click(function(){
+        $('.upcoming-movie').toggle();
+        })
+    </script>
+</body>
+</html>
