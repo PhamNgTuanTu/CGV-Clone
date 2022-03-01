@@ -1978,3 +1978,17 @@ input[type=checkbox] {
 }
 /* ---------------- */
 /* End Form Sign in */
+.infomation {
+   width: 100%;
+}
+.infomation-main {
+   margin: 0 auto;
+   width: 1000px;
+   margin-top: 20px;
+}
+.avatar-img {
+   width: 200px;
+   height: 200px;
+   background-color: #4896fa;
+   display: block;
+}

@@ -65,7 +65,7 @@
 // owl carousel news and git 
 // -------------------------
         $('.owl-carousel').owlCarousel({
-            rtl:true,
+            rtl:false,
             loop:true,
             margin:10,
             nav:true,

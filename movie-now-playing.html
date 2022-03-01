@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icon/icon.png">
     <title>Phim Đang Chiếu</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./font/fontawesome-free-5.15.1-web/css/all.min.css">
@@ -11,6 +12,31 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <style>
+        .container__form {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+input[type="date"] {
+    width: max-content;
+    height: 30px;
+    display: block;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: max-content;
+    height: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+}
+    </style>
 </head>
 <body>
     <div class="web" id="blur">
@@ -136,7 +162,11 @@
                         <span class="add"></span>
                         <a href="upcoming-movie.html" class="upcoming-movie">Phim Sắp Chiếu</a>
                     </div>
-
+                    <form class="container__form" action="">
+                        <input type="date" id="start" name="trip-start"
+                            value="2020-01-14">
+                        <input type="submit" value="Tìm Kiếm">
+                    </form>
                     <div class="container">
                         <div class="row">
 
