@@ -1,4 +1,4 @@
-![alt text](./images/header.svg)
+![alt text](./readme/images/header.svg)
 
 <h3 align="center">Frontend Developer</h3>
 
@@ -7,14 +7,14 @@
     I love exploring new technologies. <b>In addition</b>, need to incorporate time to learn and absorb new technologies.
   </em> 
   <br>
-  <img src="./images/dog_2.gif" width="50" /> <b><i align="center">Thought : "Life is full of choices…choose wisely!”</i></b> <img src="./images/dog_1.gif" width="50" />
+  <img src="./readme/images/dog_2.gif" width="50" /> <b><i align="center">Thought : "Life is full of choices…choose wisely!”</i></b> <img src="./readme/images/dog_1.gif" width="50" />
 </p>
 
 <br>
 
-<img align="right" width=200px height=200px alt="side_sticker" src="./images/profile_dev.svg" />
+<img align="right" width=200px height=200px alt="side_sticker" src="./readme/images/profile_dev.svg" />
 
-### <img src="./images/stats.gif" width="30px"> ***About Me***
+### <img src="./readme/images/stats.gif" width="30px"> ***About Me***
 
 * 🌱 I'm a web developer and I like this job a lot. 😍
 * 🌱 I want to learn and have a chance to develop myself. 😍
@@ -24,15 +24,11 @@
 
 ### ***🛠 Tools & Technologies***
 
-![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)&nbsp;
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap&logoColor=563D7C)
 ![jQuery](https://img.shields.io/badge/-jQuery-05122A?style=flat&logo=jquery)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
-![Jira](https://img.shields.io/badge/-Jira-05122A?style=flat&logo=jira)&nbsp;
-![Bitbucket](https://img.shields.io/badge/-Bitbucket-05122A?style=flat&logo=bitbucket)&nbsp;
 
 <br>
 
@@ -53,14 +49,14 @@
   <br/>
 </details>
 
-![divider](./images/divider.gif)
+![divider](./readme/images/divider.gif)
 
 <p align="center">
   <i>Let's connect and chat! Open to anything under the sun.</i>
 
   <p align="center">
-    	<code><a href="https://www.facebook.com/phamngtuantu/"><img width="30px" src="./images/facebook.png" title="Facebook"/></a></code>
-	<code><a href="mailto:phamngtuantu@gmail.com"><img width="30px" src="./images/gmail.png" title="Gmail"/></a></code>
+    	<code><a href="https://www.facebook.com/phamngtuantu/"><img width="30px" src="./readme/images/facebook.png" title="Facebook"/></a></code>
+	<code><a href="mailto:phamngtuantu@gmail.com"><img width="30px" src="./readme/images/gmail.png" title="Gmail"/></a></code>
   </p>
 
   <p align="center">
@@ -68,4 +64,4 @@
   </p>
 </p>
 
-![alt text](./images/footer.svg)
+![alt text](./readme/images/footer.svg)
