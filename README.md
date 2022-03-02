@@ -1,4 +1,4 @@
-![alt text](./readme/images/header.svg)
+![alt text](./images/readme/header.svg)
 
 <h3 align="center">Frontend Developer</h3>
 
@@ -7,14 +7,14 @@
     I love exploring new technologies. <b>In addition</b>, need to incorporate time to learn and absorb new technologies.
   </em> 
   <br>
-  <img src="./readme/images/dog_2.gif" width="50" /> <b><i align="center">Thought : "Life is full of choices…choose wisely!”</i></b> <img src="./readme/images/dog_1.gif" width="50" />
+  <img src="./images/readme/dog_2.gif" width="50" /> <b><i align="center">Thought : "Life is full of choices…choose wisely!”</i></b> <img src="./images/readme/dog_1.gif" width="50" />
 </p>
 
 <br>
 
-<img align="right" width=200px height=200px alt="side_sticker" src="./readme/images/profile_dev.svg" />
+<img align="right" width=200px height=200px alt="side_sticker" src="./images/readme/profile_dev.svg" />
 
-### <img src="./readme/images/stats.gif" width="30px"> ***About Me***
+### <img src="./images/readme/stats.gif" width="30px"> ***About Me***
 
 * 🌱 I'm a web developer and I like this job a lot. 😍
 * 🌱 I want to learn and have a chance to develop myself. 😍
@@ -49,14 +49,14 @@
   <br/>
 </details>
 
-![divider](./readme/images/divider.gif)
+![divider](./images/readme/divider.gif)
 
 <p align="center">
   <i>Let's connect and chat! Open to anything under the sun.</i>
 
   <p align="center">
-    	<code><a href="https://www.facebook.com/phamngtuantu/"><img width="30px" src="./readme/images/facebook.png" title="Facebook"/></a></code>
-	<code><a href="mailto:phamngtuantu@gmail.com"><img width="30px" src="./readme/images/gmail.png" title="Gmail"/></a></code>
+    	<code><a href="https://www.facebook.com/phamngtuantu/"><img width="30px" src="./images/readme/facebook.png" title="Facebook"/></a></code>
+	<code><a href="mailto:phamngtuantu@gmail.com"><img width="30px" src="./images/readme/gmail.png" title="Gmail"/></a></code>
   </p>
 
   <p align="center">
@@ -64,4 +64,4 @@
   </p>
 </p>
 
-![alt text](./readme/images/footer.svg)
+![alt text](./images/readme/footer.svg)
